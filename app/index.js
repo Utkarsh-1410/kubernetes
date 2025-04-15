@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Node.js app running in Minikube!');
+  res.send('Hello from Node.js app running in Minikube by Utkarsh!');
 });
 
 app.listen(port, () => {
